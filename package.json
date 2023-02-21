@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "start": "node --inspect .output/server/index.mjs"
+  },
+  "devDependencies": {
+    "nuxt": "^3.1.2"
+  },
+  "dependencies": {
+    "@tanstack/vue-query": "^4.24.4"
+  }
+}
